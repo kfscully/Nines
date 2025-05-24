@@ -1,2 +1,2 @@
 # Nines
-Nines card game to play with "good job prius" pals
+Nines card game to play with Good Job Prius pals
