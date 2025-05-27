@@ -83,5 +83,6 @@
 
 ## How Points Are Scored
 - after the round is complete, a player only scores points if their bet of how many tricks they'd win during the round is correct
-- if a player's bet is correct, they score the number of their bet times 10 and then add five
-  - e.g. if a player bets they'll win three tricks and that bet is correct, they score three times ten (30) then add five for a total of 35
+- if a player's bet is correct, they score the number of their bet times five and then add ten
+  - e.g. if a player bets they'll win zero tricks and that bet is correct, they score zero times five (0) then add ten for a total of 10
+  - e.g. if a player bets they'll win three tricks and that bet is correct, they score three times five (15) then add ten for a total of 25
