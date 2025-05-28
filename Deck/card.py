@@ -7,7 +7,7 @@ face_values = {11: "Jack", 12: "Queen", 13: "King", 14: "Ace"}
 
 class Card:
     """
-    This defines a card
+    This defines a card and sets the value and the suit
     """
     def __init__(self, value, suit):
         self.value = value
@@ -17,7 +17,7 @@ class Card:
     def name(self):
         if self.value in value_names:
             str_name = value_names[self.value]
-        if self.value in face_values:
+        else:
             str_name = face_values[self.value]
         return f"{str_name} of {self.suit}"
 
